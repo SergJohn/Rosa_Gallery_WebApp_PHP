@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css?family=Grenze|Mansalva&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #DFE2D5;
+}
+
+main {
+    margin-bottom: 15%;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}
+
+
+footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #555;
+  background-color: #999;
+  padding: 20px;
+  padding-top: 30px;
+}
+
+.logoFooter {
+  align-items: flex-end;
+  margin-left: 25%;
+  margin-top: -8%;
+
+}
+
+.Test {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: auto;
+    margin-right: 60px;
+    margin-left: 40px;
+}
+
+.logo {
+    margin-left: 65px;
+    margin-bottom: 50px;
+}
+
+.s1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -100px;
+}
+
+.company {
+    font-family: 'Grenze', serif;
+    font-size: 50px;
+    color: #333;
+    margin-top: 1%;
+}
+
+.slogan {
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+}
+
+.btnLogin {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message1 {
+    font-size: 10px;
+    text-align: center;
+    color: #555;
+    margin-top: 1%;
+}
+
+.message2 {
+    font-size: 10px;
+    text-align: center;
+    color: #555;
+}
+
+/*media queries*/
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+
+    * {
+        margin: 0;
+        padding: 0;
+        outline: 0;
+        box-sizing: border-box;
+    }
+  
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -10px;
+    }
+
+    img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .company {
+        font-size: 80px;
+        margin-top: 1%;
+    }
+
+    .slogan {
+        font-size: 25px;
+    }
+
+    main {
+        margin-bottom: 10%;
+    }
+
+    form {
+        width: 80%;
+        margin-left: 125px;
+        margin-top: 2%;
+        margin-bottom: 5%;
+    }
+
+    .btnLogin {
+        width: 100%;
+        display: flex;
+        flex-basis: 0;
+        justify-content: center;
+        margin-left: 34%;
+        margin-top: 1%;
+    }
+
+    .message1 {
+        font-size: 12px;
+        text-align: center;
+        color: #555;
+        margin-left: -200px;
+    }
+
+    .message2 {
+        font-size: 12px;
+        text-align: center;
+        color: #555;
+        margin-left: -200px;
+    }
+
+    .logoFooter {
+        align-items: flex-end;
+        margin-left: 60%;
+        margin-top: -40px;
+
+    }
+
+}
+
+
+
+ /* Large devices desktops, 992px and up or
+ or put 1200px instead of 992px */
+@media only screen and (min-width: 1200px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        outline: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: #DFE2D5;
+        width: 100%;
+        height: 100vh;
+    }
+
+    main {
+        margin-bottom: 5%;
+    }
+
+    form {
+        width: 80%;
+        margin-left: 225px;
+        margin-top: 2%;
+        margin-bottom: 5%;
+    }
+
+    .logoFooter {
+        align-items: flex-end;
+        margin-left: 60%;
+        margin-top: -40px;
+
+    }
+
+}

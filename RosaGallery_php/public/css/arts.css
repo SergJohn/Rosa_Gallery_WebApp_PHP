@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css?family=Grenze|Mansalva&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #DFE2D5;
+    width: 100%;
+    height: 100vh;
+}
+
+.favorite-page {
+    background-color: #999;
+    margin: 0;
+    padding: 20px;
+}
+
+.favorite-page h1 {
+    font-family: 'Crimson Text', serif;
+    font-weight: 400;
+    text-align: center;
+    margin: 2%;
+}
+
+.outterFav {
+    border: #333 1px solid;
+    margin: 10%;
+    margin-top: 5%;
+    padding: 5%;
+    padding-top: 0;
+}
+
+.paintDescription-reverse {
+    text-align: center;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #555;
+  background-color: #999;
+  padding: 20px;
+  padding-top: 30px;
+}
+
+.logoFooter {
+  align-items: flex-end;
+  margin-left: 25%;
+  margin-top: -8%;
+
+}
+
+
+.paint-name {
+    font-family: 'Crimson Text', serif;
+    text-align: center;
+}
+
+.authorName {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 28px;
+    margin-top: 2%;
+}
+
+.description {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+
+}
+
+.p_art {
+    width: 80%;
+    height: 50vh;
+    margin-left: 10%;
+    background-color: blueviolet;
+    border: 2px dashed #333;
+    border-radius: 10px;
+}
+
+.placeholder {
+    color: darkmagenta;
+    text-align: center;
+    line-height: 200px;
+}
+
+
+.paint-name-top {
+    margin-top: 10%;
+}
+
+.paintDescription {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#like {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/*media queries*/
+
+@media only screen and (min-width: 768px) {
+  /* For desktop (medium devices): */
+
+  * {
+        margin: 0;
+        padding: 0;
+        outline: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: #DFE2D5;
+    }
+
+    .paint-name {
+        font-family: 'Crimson Text', serif;
+        text-align: center;
+    }
+
+    .authorName {
+        font-family: 'Merriweather', serif;
+    }
+
+    .inner_container {
+        justify-content: center;
+    }
+
+    .paint {
+        margin-top: 2%;
+    }
+
+    .p_art {
+        width: 500px;
+        height: 300px;
+        background-color: blueviolet;
+    }
+
+    .placeholder {
+        color: darkmagenta;
+        text-align: center;
+        line-height: 200px;
+    }
+
+    .paint-name-top {
+        margin-top: 5%;
+    }
+
+    .logoFooter {
+        align-items: flex-end;
+        margin-left: 60%;
+        margin-top: -40px;
+
+    }
+    .paintDescription {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #like {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+}
+
+@media only screen and (min-width: 576px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        outline: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: #DFE2D5;
+    }
+
+    .paint-reverse {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-right: 20%;
+    }
+
+    .description-reverse {
+        margin-top: 3%;
+        margin-left: 20%;
+        margin-right: 0;
+    }
+
+    .paintDescription-reverse {
+        text-align: right;
+    }
+
+    .paint-name {
+        font-family: 'Crimson Text', serif;
+        text-align: center;
+        
+    }
+
+    .authorName {
+        font-family: 'Merriweather', serif;
+    }
+
+    .inner_container {
+        justify-content: center;
+    }
+
+    .paint {
+        margin-top: 2%;
+    }
+
+    .p_art {
+        width: 500px;
+        height: 300px;
+        background-color: blueviolet;
+        margin-right: -50px;
+    }
+
+    .placeholder {
+        color: darkmagenta;
+        text-align: center;
+        line-height: 100px;
+    }
+
+    .paint-name-top {
+        margin-top: 5%;
+    }
+
+    .paintDescription {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #like {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+ /* Large devices desktops, 992px and up or
+ or put 1200px instead of 992px */
+@media only screen and (min-width: 1200px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        outline: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: #DFE2D5;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .outterFav {
+        border: #333 1px solid;
+        margin: 10%;
+        margin-top: 5%;
+        padding: 5%;
+        padding-top: 0;
+    }
+
+    .paint-name {
+        font-family: 'Crimson Text', serif;
+        font-size: 50px;
+        text-align: center;
+        
+    }
+
+    .authorName {
+        font-family: 'Merriweather', serif;
+    }
+
+    .inner_container {
+        justify-content: center;
+    }
+
+    .paint {
+        margin-top: 2%;
+    }
+
+    .paint-reverse {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-right: 20%;
+    }
+
+    .description-reverse {
+        margin-top: 3%;
+        margin-left: 20%;
+        margin-right: 0;
+    }
+
+    .paintDescription-reverse {
+        text-align: center;
+    }
+
+    .p_art {
+        width: 800px;
+        height: 300px;
+        background-color: blueviolet;
+        margin-right: -100px;
+    }
+
+    .placeholder {
+        color: darkmagenta;
+        text-align: center;
+        line-height: 300px;
+    }
+
+    .paint-name-top {
+        margin-top: 5%;
+    }
+
+    .logoFooter {
+        align-items: flex-end;
+        margin-left: 60%;
+        margin-top: -40px;
+
+    }
+
+    .paintDescription {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #like {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
