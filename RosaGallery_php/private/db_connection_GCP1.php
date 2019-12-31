@@ -1,6 +1,9 @@
 <?php
 /*****************************************
 * This query uses the procedural interface
+* in order to use this connection file, rename it as it is but without
+the number "1" in the end.
+* Also create the database for it and input the connection details in this file.
 ******************************************/
 
 // Credentials
